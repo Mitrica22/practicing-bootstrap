@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+  	<head>
+
+    	<meta charset="utf-8">
+    	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+    	<title>House of Pizza</title>
+
+    	<link href="css/bootstrap.min.css" rel="stylesheet">
+    	<link href="https://fonts.googleapis.com/css?family=Roboto+Slab:700" rel="stylesheet"> 
+    	<link rel="stylesheet" type="text/css" href="css/style.css"> 
+
+    	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    	<script src="js/bootstrap.min.js"></script>
+   	 	<script src="js/script.js"></script>
+
+  	</head>
+
+	<body data-spy="scroll" data-target=".navbar" data-offset="50">
+
+<!-- NAVBAR -->
+	  	<nav class="navbar navbar-inverse navbar-fixed-top">
+	    	<div class="container-fluid">
+	    		<div class="navbar-header">
+	        		<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+	          			<span class="icon-bar"></span>
+	          			<span class="icon-bar"></span>
+	          			<span class="icon-bar"></span>                        
+	      			</button>
+	        		<a class="navbar-brand" id="logo" href="#">House of Pizza</a>
+	        	</div>
+	    		<div>
+	      			<div class="collapse navbar-collapse" id="myNavbar">
+	        			<ul class="nav navbar-nav navbar-right">
+	          				<li><a href="#section1">Wood Fired Pizza</a></li>
+	          				<li><a href="#section2">New</a></li>
+	          				<li><a href="#section3">Recommendations</a></li>
+	            			<li><a href="#section4">Contact Us</a></li>
+	        			</ul>
+	      			</div>
+	    		</div>
+	    	</div>
+	    </nav><!-- end of navbar -->
+
+<!-- CAROUSEL -->
+		<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+			<ol class="carousel-indicators">
+			    <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+			    <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+			</ol>
+			<div class="carousel-inner" id="section1" role="listbox">
+			    <div class="item active">
+			        <img src="img/banner_opt.jpg" alt="">
+			        <div class="carousel-caption">
+			        	<h2 id="slide-title">Wood fired pizza</h2>
+			        </div>
+			    </div>
+			    <div class="item">
+			        <img src="img/banner2-opt.jpg" alt="">
+			        <div class="carousel-caption">
+			        	<h2 class="color-changed">
+			        		<span class="capitalized">If you want</span> a <span class="capitalized">taste</span> of <span class="capitalized red-title">Wood Fired Pizza</span> <span class="capitalized">come</span> to <span class="capitalized"><br>House of pizza</span>
+			        	</h2>
+			        </div>
+			    </div>
+			    <div class="item">
+			        <img src="img/banner3_opt.jpg" alt="">
+			        <div class="carousel-caption">
+			        	<h2 class="capitalized">House of pizza</h2>
+			        	<p class="capitalized">Best location in town</p>
+			        </div>
+			    </div>
+			</div>
+			<a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+			    <span class="icon-prev" aria-hidden="true"></span>
+			    <span class="sr-only">Previous</span>
+			</a>
+			<a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+			    <span class="icon-next" aria-hidden="true"></span>
+			    <span class="sr-only">Next</span>
+			</a>
+		</div><!-- end of carousel -->
+
+<!-- SECTION 2 -->
+		<div id="section2" class="container">
+			<h3 >New products</h3>
+			<div class="row products-row" >
+		        <div class="col-md-4">
+		        	<h4>Creamy Chicken Carbonara</h4>
+		        	<img src="img/carbonara.png">
+					<p>Seasoned chicken, parmesan, rasher bacon, red onion, mushroom on a garlic crème fraiche base, topped with fresh sliced spring onion</p>
+				</div>
+				<div class="col-md-4">
+		        	<h4>Fire Breather</h4>
+		        	<img src="img/fire.png">
+					<p>Pork & fennel sausage, Aussie ground beef, pepperoni, late harvest jalapenos, fresh tomato, red onion topped with chilli flakes</p>
+				</div>
+				<div class="col-md-4">
+		        	<h4>Chicken & Feta</h4>
+		        	<img src="img/chicken-feta.png">
+					<p>Seasoned chicken, baby spinach, feta cheese, cherry tomatoes, olives & oregano with garlic sauce </p>
+				</div>
+			</div>
+		</div> 
+<!-- end of section 2 -->
+
+<!-- SECTION 3 -->
+		<div id="section3" class="container">
+			<h3>Our recommendation</h3>
+			<div class="row products-row">
+		        <div class="col-md-3">
+		        	<h4>Double Bacon Cheeseburger</h4>
+		        	<img src="img/double-bacon.png">
+					<p>Ground beef, rasher bacon on a BBQ sauce base, topped with mayonnaise</p>
+				</div>
+				<div class="col-md-3">
+		        	<h4>Grand Supreme</h4>
+		        	<img src="img/grand-supreme.png">
+					<p>Ground beef, rasher bacon, pepperoni, capsicum, red onion, baby spinach, cherry wood smoked leg ham, olives, oregano topped with tomato capsicum sauce</p>
+				</div>
+				<div class="col-md-3">
+		        	<h4>Garlic Prawn</h4>
+		        	<img src="img/garlic-prawn.png">
+					<p>Prawns, baby spinach, fresh tomato, oregano on a crème fraiche base, with garlic sauce</p>
+				</div>
+				<div class="col-md-3">
+		        	<h4>Margherita</h4>
+		        	<img src="img/margherita.png">
+					<p>Fresh tomato & mozzarella topped with oregano</p>
+				</div>
+			</div>
+		</div><!-- end of section 3 -->
+
+<!-- FOOTER -->
+	    <footer id="section4">
+	    	<div class="container">
+		        <div class="row footer-first-row">
+		        	<div class="col-md-6">
+		        		<h5><span class="capitalized">Sign up </span>for the <span class="capitalized">newsletter</span></h5>
+		        		<form>
+							<div class="form-group">
+							    <label for="email">Email address</label>
+							    <input type="email" class="form-control" id="email" placeholder="Email">
+							</div>
+							<div class="form-group">
+							    <label for="first-name">First Name</label>
+							    <input type="text" class="form-control" id="first-name" placeholder="First Name">
+							</div>
+							<div class="form-group">
+							    <label for="Last Name">Last Name</label>
+							    <input type="text" class="form-control" id="last-name" placeholder="Last Name">
+							</div>
+							<button type="submit" class="btn btn-default">Subscribe</button>
+						</form>
+		        	</div>
+		        	<div class="col-md-6">
+		        		<h5>Our Location</h5>
+		        		<div id="map"></div>
+						    <script>
+						      function initMap() {
+						        var uluru = {lat: 41.586363, lng: -87.481242};
+						        var map = new google.maps.Map(document.getElementById('map'), {
+						          zoom: 17,
+						          scrollwheel: false,
+						          center: uluru
+						        });
+						        var marker = new google.maps.Marker({
+						          position: uluru,
+						          map: map
+						        });
+						      }
+						    </script>
+						    <script async defer
+						    src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAa3dVqJqAr0BqEb-Z_PhsFhTfnalZEFU8&callback=initMap">
+						    </script>
+
+		        	</div>
+		        </div>
+	        </div>	  
+	        <div class="container footer-second-row">
+	        	<div class="row">
+		        	<div class="col-md-6">
+		        		<p>&copy; 2016 Company, Inc.</p>
+		        	</div>
+			        <div class="col-md-6 designed-by">
+			       		<p>Designed by summerstorm</p>
+			       	</div>
+	       		</div>
+	    	</div>
+	    </footer> <!-- end of footer -->
+	</body>
+</html>

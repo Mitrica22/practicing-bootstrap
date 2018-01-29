@@ -1,0 +1,69 @@
+body {
+	position: relative;
+}
+img {
+	width: 100%;
+}
+#carousel-example-generic{
+	margin-top: 50px;
+}
+h2{
+	color: red;
+	font-size: 3vw;
+	font-weight: bold;
+}
+.color-changed {
+	color: #00001a;
+}
+#slide-title {
+	text-transform: uppercase;
+	letter-spacing: 4px;
+	font-size: 5vw;
+	margin-bottom: 30%;
+}
+.carousel-caption p {
+	font-size: 2vw;
+	font-weight: bold;
+}
+.capitalized{
+	text-transform: capitalize;
+}
+.red-title {
+	color: #cc0000;
+}
+#logo {
+	font-size: 28px;
+	font-family: 'Roboto Slab', serif;
+}
+h3 {
+	text-transform: uppercase;
+	padding-top: 10px;
+	font-family: 'Roboto Slab', serif;
+}
+.products-row {
+	padding-bottom: 20px;
+}
+h4 {
+	padding-bottom: 10px;
+}
+h5{
+	font-size: 20px;
+}
+footer {
+	width: 100%;
+	background-color: #eee;
+}
+ .footer-first-row {
+	border-bottom: 1px solid #ddd;
+} 
+#map{
+	width: 100%;
+	height: 300px;
+}
+.footer-second-row {
+	padding-top: 20px;
+	padding-bottom:  15px;
+}
+.designed-by {
+	text-align: right;
+}
